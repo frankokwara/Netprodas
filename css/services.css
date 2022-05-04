@@ -55,6 +55,10 @@ color:  #2d4a8a;
     max-width: 100%;
     border-bottom: 4px solid #2d4a8a;
     padding: 50px;
+    max-height: 50vw;
+    overflow: auto;
+    transition: background-color 3s;
+
 }
 .training-col:hover{
     background-color: #2d4a8a;
