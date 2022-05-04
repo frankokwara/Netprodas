@@ -56,7 +56,7 @@ color:  #2d4a8a;
     border-bottom: 4px solid #2d4a8a;
     padding: 50px;
     max-height: 50vw;
-    overflow: auto;
+    overflow: hidden;
     transition: background-color 3s;
 
 }
@@ -69,4 +69,11 @@ color:  #2d4a8a;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #f7f9fe;
+}
+.training-caption{
+    font-size: 2em;
+    font-weight: bolder;
+}
+.programming-caption{
+    padding-bottom: 74px;
 }
