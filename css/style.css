@@ -120,16 +120,12 @@ color: darkblue !important;
     bottom: -24px;
 }
 #intro{
-    background-image: url(img/neprodas1.png);
+    background-image:url('../img/neprodas1.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 50vh;
-    background-color: black;
-    opacity: 0.5;
-}
-#intro:hover{
-    opacity: 1.0;
+    opacity: 0,6;
 }
 .centered{
     position: relative;
@@ -185,6 +181,11 @@ textarea{
 .blank{
     height: 50vh;
 }
+<<<<<<< HEAD
+.top-nav{
+    background-color:rgb(46, 46, 70); 
+    height: 50px;
+=======
 #bg{
     width: 1590px;
     height: 900px;
@@ -350,4 +351,5 @@ animation-timing-function: lineat;
 50%{background: transparent; left: 600px; left: 300px;}
 75%{background: transparent; left: 300px; left: 600px;}
 80%{background: transparent; left: 300px; left: 600px;}
+>>>>>>> 407b40501ac867cb03c2e02290025e98a968b38d
 }
