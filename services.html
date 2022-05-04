@@ -4,13 +4,242 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services/traning page</title>
+    <title>Services/training page</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="./css/services.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+
+<style>
+    body{
+     counter-reset: msc;
+ }
+ol>li{
+    list-style-type: none;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #371783;
+    /* list-style-type: decimal-leading-zero;
+    list-style-position: outside; */
+}
+.numbering{
+    float: left;
+    width: 40px;
+    height: 50px;
+}
+.numbering::before{
+    /* background-color: aliceblue; */
+    counter-increment: msc;
+  content: "0" counter(msc);
+  background-color: #f7f9fe;
+  color: #371783;
+  padding: 5px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: x-large;
+}
+</style>
+        
 </head>
 <body>
-    <h1>Your content here...</h1>
+    <main id="top" class="main header">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/logo.png" height="32" alt="There should be image here" style="border-radius: 20px;">
+                   <strong style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Netprodas</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                    <span class="navbar-toggler-icon" ></span>
+                </button>
+                <div class="collapse navbar-collapse mt-4 mt-lg-0" id="navbarContent">
+                    <ul class="navbar-nav ms-auto" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(32, 32, 80);">
+                        <li class="nav-item"> 
+                            <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item"> 
+                                <a href="services.html" class="nav-link">Services</a>
+                            </li>
+                            <li class="nav-item"> 
+                                <a href="about.html" class="nav-link">About us</a>
+                            </li>
+                            <li class="nav-item"> 
+                                <a href="contact.html" class="nav-link">Contact</a>
+                            </li>
+                        <div class="vr"></div>
+                        <div class="d-flex ms-lg-4">
+    
+                            <a href="" class="btn btn-primary active btn-lg"><i class="fas fa-search"></i><style>
+                                .btn-primary:hover{
+                                    color: darkblue;
+                                    background-color: white;
+                                }
+                            </style></a>
+                        </div>
+                    </ul>
+            </div>
+        </nav>
+    </main>
+    <!-- The header endeds -->
+    <!-- <h1>Your content here...</h1> -->
 
+    <div class="ttm-page-title-row breadcrumb-title">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12"> 
+                    <div class="title-box text-center">
+                        <div class="page-title-heading">
+                            <h1 class="title Services"> Our Services / Training</h1>
+                        </div><!-- /.page-title-captions -->
+                        <div class="breadcrumb-wrapper">
+                            <span>
+                                <a title="Homepage" href="./index.html"><svg class="svg-inline--fa fa-house" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="house" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6H511.8L512.5 447.7C512.5 450.5 512.3 453.1 512 455.8V472C512 494.1 494.1 512 472 512H456C454.9 512 453.8 511.1 452.7 511.9C451.3 511.1 449.9 512 448.5 512H392C369.9 512 352 494.1 352 472V384C352 366.3 337.7 352 320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5L575.8 255.5z"></path></svg><!-- <i class="fas fa-home"></i> Font Awesome fontawesome.com -->&nbsp;&nbsp;Home</a>
+                            </span>
+                            <span class="ttm-bread-sep">&nbsp; : : &nbsp;</span>
+                            <span> Services 01</span>
+                        </div>  
+                    </div>
+                </div><!-- /.col-md-12 -->  
+            </div><!-- /.row -->  
+        </div><!-- /.container -->                      
+    </div><!-- page-title end-->
+<br><br><br><br>
+<!--Our Services-->
+ <section class="pt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="./img/OGB_5564 copy.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-6">
+                <h4>Our Services    </h4>
+                <span>
+                    We Have a special Team of We have a special team for website style who has been involved in designing professional websites of all the web app categories.
+                </span>
+                <ol>
+                    <span class="numbering"></span><li> &nbsp; ICT Consultancy</li><br>
+                    <div>
+                        Lorem Ipsum is simply dummy textover of the printing and typesetting industryin. printing and typesetting industry.
+                    </div><hr><hr class="hidden">
+
+                    <span class="numbering"></span><li> &nbsp; ISP Service</li><br>
+                    <div>
+                        Lorem Ipsum is simply dummy textover of the printing and typesetting industryin. printing and typesetting industry
+                    </div><hr><hr class="hidden">
+
+                    <span class="numbering"></span><li> &nbsp; Computer Repair</li><br>
+                    <div>
+                        Lorem Ipsum is simply dummy textover of the printing and typesetting industryin. printing and typesetting industry
+                    </div><hr><hr class="hidden">
+
+                    <span class="numbering"></span><li> &nbsp; Project Design</li><br>                    
+                    <div>
+                        Lorem Ipsum is simply dummy textover of the printing and typesetting industryin. printing and typesetting industry
+                    </div> <br>
+                    
+                </ol>
+            </div>
+        </div>
+    </div>
+ </section>
+<!--End of Services-->
+    <!-- Training -->
+        <section class="pt-5 row-bgimage-14">
+            <div class="container contain">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <span class="fast">Fast Growing Information & Technologies Estates</span> <br>
+                        <span class="providing">Providing High-Performances Services For</span> <br>
+                        <span class="multiple pb-4"><span class="providing">Multiple</span> <i id="info">Information & Technologies</i></span>
+                    </div>
+                    <div class="col-lg-3">
+
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4"><div class="training-col">
+                        <h2 class="training-caption">Networking</h2>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem fugit corrupti magnam animi obcaecati temporibus tempora illum ipsa voluptas libero assumenda perspiciatis, saepe cum nostrum vero, expedita quis maiores beatae?
+                    </div></div>
+                    <div class="col-lg-4"><div class="training-col">
+                        <h2 class="training-caption">Programming</h2>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere molestiae non cumque eligendi provident quisquam mollitia aliquam ratione officia fuga minima omnis voluptatum hic inventore dignissimos sequi, alias in tenetur!
+                    </div></div>
+                    <div class="col-lg-4"><div class="training-col">
+                        <h2 class="training-caption">Database</h2>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quisquam a odio beatae odit perferendis voluptas explicabo iste quidem soluta, ipsum blanditiis expedita tempore at sapiente dolorem quibusdam veritatis consequatur.
+                    </div></div>
+                </div>
+            </div>
+        </section>
+    <!-- End of Training -->
+    <!-- the blank section -->
+<div class="blank"></div>
+ <br><br><br><br>
+<!-- The footer begining -->
+<section class="pt-5" style="background-color: rgb(46, 46, 70); color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h4>About our school</h4>
+                <p>Netprodas is the the best world Information Technology Company. Providing the highest quality in hardware & Network solutions. About more than 20 years of experience and 1000 of innovative achievements.</p>
+               <p><img src="img/picture1.png" alt=""></p>
+            </div>
+            <div class="col-md-4 ">
+                <h4>Quick link</h4>
+                <ul class="navbar-nav ms-auto">
+                    <li class="link"><a href="index.html" class="text-decoration-none text-white link"><i class="fas fa-angle-double-right"></i>&nbsp;&nbsp;Home</a></li>
+                    <div class="pt-4 ">
+                        <li><a href="services.html" class="text-decoration-none text-white link"><i class="fas fa-angle-double-right"></i>&nbsp;&nbsp;Services</a></li>
+                    </div>
+                    <div class="pt-4">
+                        <li><a href="About.html" class="text-decoration-none text-white link"><i class="fas fa-angle-double-right"></i>&nbsp;&nbsp;About us</a></li>
+                    </div>
+                    <div class="pt-4">
+                        <li><a href="contact.html" class="text-decoration-none text-white "><i class="fas fa-angle-double-right"></i>&nbsp;&nbsp;contact us</a></li>
+                    </div>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h4>News letter </h4>
+                <p>Sign up today for hints, tips and the latest product news</p><br>
+              <form action="" id="form" class="">
+                  <input type="text" placeholder=" &nbsp; email address.." required  value="" style="background-color:  rgb(49, 49, 80);">
+                  <button type="submit" class="" value="" style="background-color: darkblue;"><i class="fab fa-facebook" style="color: aliceblue;"></i></button>
+              </form>
+              <div class="pt-4">
+                <h4>follow us on</h4>
+              <a href="#" class="text-decoration-none tooltip-bottom" data-tooltip="Facebook" target="_blank" ><i class="fab fa-facebook" style="font-size: 30px; color: aliceblue;"></i>&nbsp;&nbsp;</a>
+              <a href="#" class="text-decoration-none tooltip-bottom"  data-tooltip="twitter">  <i class="fab fa-twitter" style="font-size: 30px; color: aliceblue;"></i></a>&nbsp;&nbsp;
+                <a href="#" class="text-decoration-none tooltip-bottom"  data-tooltip="instagram"><i class="fab fa-instagram" style="font-size: 30px; color: aliceblue;"></i></a>&nbsp;&nbsp;
+
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- this section ended -->
+
+<!-- New section -->
+<section class="pt-5 text-white" style="background-color: rgb(49, 49, 80); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+    <div class="container" >
+        <div class="row">
+            <div class="col-md-6 d-flex justify-content-start">
+                       
+                <p>&copy; 2022 Your Netprodas Inc.</p>
+            </div>
+            
+            <div class="col-md-6 d-flex justify-content-end">
+                <p>Made by Netprodas student</p>
+            </div>
+            
+
+        </div>
+        </div>
+    </section>
+    <script src="./js/services.js"></script>
     <script src="./js/bootstrap.bundle.js"></script>
     <script src="./fontawesome/js/all.js"></script>
 </body>
