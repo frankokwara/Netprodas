@@ -1,0 +1,68 @@
+.grid-in{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.grid-in-content{
+    
+    height: 10vw;
+    width: 35vw;
+    text-align: center;
+    /* font-size: 3vw; */
+    padding-top: 15px;
+}
+/* .grid-in-content:hover{
+    background-color: #2d4a8a ;
+    color: white;
+} */
+.services{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+}
+ 
+hr{
+    color: #568fc1;
+}
+.hidden{
+    display: none;
+}
+ 
+.fast{
+    font-family: 'Poppins','sans-serif','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 500px;
+    color: #2d4a8a;
+}
+.providing,.multiple{
+    font-weight: bolder;
+    font-size: 36px;
+}
+#info{
+    font-style: italic;
+font-weight: 700;
+font-family: 'Playfair Display', serif;
+letter-spacing: 1.2px;
+color:  #2d4a8a;
+}
+.providing{
+    color: #1e2637;
+}
+.training-col{
+    text-align: center;
+    max-width: 100%;
+    border-bottom: 4px solid #2d4a8a;
+    padding: 50px;
+}
+.training-col:hover{
+    background-color: #2d4a8a;
+    color: white;
+}
+.row-bgimage-14{
+    background-image: url(../img/row-bgimage-14.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f7f9fe;
+}
